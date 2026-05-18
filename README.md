@@ -4,8 +4,8 @@
 
 | 工具 | Hook 时机 | 配置文件 | 输出 |
 |------|-----------|----------|------|
-| [Cursor](https://cursor.com/docs/hooks) | 每轮助手回复后（`afterAgentResponse`） | `.cursor/hooks.json` | `chat/YYYYMMDD--<conversation_id>.md` |
-| [Claude Code](https://docs.anthropic.com/en/docs/claude-code/hooks) | 会话停止时（`Stop`） | `.claude/settings.json` | `chat/YYYYMMDD--<session_id>.txt` |
+| [Cursor](#cursor) | 每轮助手回复后（`afterAgentResponse`） | `.cursor/hooks.json` | `chat/YYYYMMDD--<conversation_id>.md` |
+| [Claude Code](#claude-code) | 会话停止时（`Stop`） | `.claude/settings.json` | `chat/YYYYMMDD--<session_id>.txt` |
 
 ---
 
@@ -160,7 +160,7 @@
 
 导出为与 Claude Code `/export` 一致的终端风格纯文本（`.txt`），非 Markdown。
 
-**示例**（待测试后替换为真实文件）：`chat/TBD--<session_id>.txt` — 占位路径，维护者验证通过后会提交样例并更新本链接。
+**示例**：[`chat/20260518--7f7b6371-83c4-487e-bee5-595b6497ec89.txt`](chat/20260518--7f7b6371-83c4-487e-bee5-595b6497ec89.txt)
 
 ### 🗑️ 卸载
 
